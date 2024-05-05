@@ -1,0 +1,98 @@
+.App {
+  min-height: 100vh;
+  display: flex; /* Added flexbox display */
+  flex-direction: column; /* Changed to column for vertical arrangement */
+  align-items: center;
+  background-image: url(/src/Resources/fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-x: hidden; /* Evita la barra de desplazamiento horizontal */
+}
+
+.contenedor-padre {
+  width: 90%;
+  display: flex; /* Added flexbox display */
+  flex-direction: column; /* Changed to column for vertical arrangement */
+  align-items: center;
+  margin-top: 30px;
+}
+
+.search-bar {
+  width: 80vw;
+  margin-bottom: 20px; /* Added margin for spacing between search bar and cards */
+  color: aliceblue;
+}
+
+.product-cards-container {
+  width: 80vw;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 5px rgba(54, 51, 227, 0.2);
+}
+
+.search-button {
+  margin-left: -40px;
+  z-index: 1;
+  border: none;
+  background-color: transparent;
+  color: #9d00ff;
+}
+
+.search-button:hover {
+  background-color: #c300ff;
+  color: #fff;
+}
+
+.product-cards-container {
+  display: flex;
+  flex-wrap:  wrap;
+  justify-content: center;
+  width: 80vw;
+}
+
+/* Estilos CSS */
+.titulo-y-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 400px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+}
+
+
+p{
+  font-size: large;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Estilo básico para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilo para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color de fondo del riel */
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color del pulgar */
+}
+
+/* Estilo para el pulgar de la barra de desplazamiento cuando se pasa el mouse sobre él */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Cambio de color del pulgar al pasar el mouse */
+}
+
+
+
+
+
